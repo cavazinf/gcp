@@ -1,0 +1,28 @@
+Organização de Pastas:
+Pastas: Podem ser usadas para organizar projetos em uma estrutura hierárquica. Elas podem conter projetos e outras pastas.
+Por exemplo:
+Empresa
+Departamento 1
+Projeto 1
+Projeto 2
+Departamento 2
+Projeto 3
+Projeto 4
+Projetos:
+Projetos: Representam unidades lógicas e isoladas de trabalho dentro da GCP. Eles têm recursos e permissões próprias.
+Recomenda-se a criação de projetos para ambientes específicos (produção, desenvolvimento, teste) ou para equipes/diferentes áreas de negócio.
+Cada projeto pode ter suas próprias configurações de recursos, IAM (Identity and Access Management), faturamento e contas de serviço.
+Grupos de Acessos (IAM):
+Grupos: Podem ser criados no Google Groups e depois usados no IAM (Identity and Access Management) para conceder permissões.
+Permitem atribuir permissões de forma coletiva a vários usuários. Você pode criar grupos para equipes, departamentos, funções etc.
+Esses grupos podem ser usados para simplificar a concessão de permissões, evitando conceder permissões para cada usuário individualmente.
+Boas Práticas:
+Hierarquia Lógica: Crie uma estrutura que reflita a estrutura organizacional da empresa, facilitando a gestão e o controle de acesso.
+Agrupamento de Projetos: Agrupe projetos relacionados em uma mesma área ou equipe, facilitando a administração e atribuição de permissões.
+Padrões de Nomenclatura: Utilize uma nomenclatura clara e consistente para pastas, projetos e recursos, o que facilita a identificação e organização.
+IAM Eficiente: Utilize grupos do Google para atribuir permissões de acesso de forma mais eficiente e gerenciável.
+Ferramentas:
+Console GCP: Use o console da GCP para gerenciar pastas, projetos, permissões e recursos.
+Cloud Identity and Access Management (IAM): Gerencie permissões e acesso aos recursos da GCP.
+Google Groups: Crie e gerencie grupos para simplificar o gerenciamento de permissões.
+Adapte essa estrutura conforme as necessidades específicas da sua organização e mantenha uma boa organização para facilitar a administração e o controle de acesso aos recursos na Google Cloud Platform.
